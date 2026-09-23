@@ -47,12 +47,6 @@ class Solver:
 
     def __str__(self) -> str:
 
-        if self.roots:
+        res = f"Roots: {self.roots}" if self.roots else "No roots"
 
-            res = f"Roots: {self.roots}"
-
-        else:
-
-            res = "No roots"
-
-        return res
+        return res 

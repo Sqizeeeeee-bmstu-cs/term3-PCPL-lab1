@@ -1,5 +1,5 @@
 import sys
-from typing import Tuple, Dict, Any
+from typing import Tuple, Dict
 
 from procedure import solver as procedural_solver
 from oop import Solver as OOPSolver

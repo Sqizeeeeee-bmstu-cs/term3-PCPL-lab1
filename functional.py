@@ -1,6 +1,4 @@
 
-
-
 def extract_roots_from_t(t: float) -> tuple[float, ...]:
     match t:
         case _ if t < 0:
